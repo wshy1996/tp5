@@ -10,7 +10,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-        $tel = '15732891998';
+//        $tel = '15732891998';
         (new UserValidate())->goCheck();
 
     }
